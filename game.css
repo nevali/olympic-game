@@ -1,0 +1,282 @@
+* { margin: 0; padding: 0; }
+html, body { width: 100%; height: 100%; overflow: hidden; }
+
+.foreground {
+	z-index: 150;
+}
+.background {
+	z-index: 100;
+}
+
+#score {
+	color: yellow;
+	background: black;
+	padding: 8px;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	font-family: 'Arial';
+
+	font-size: 50px;
+	z-index: 250;
+	border-radius: 8px;
+}
+
+#scenery{
+	position: absolute;
+	top: 0;
+	bottom: 308px;
+	left: 0;
+	right: 0;
+	background:#7BDBFB;
+	z-index: 10;
+}
+
+.camera{
+	z-index: 151;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	height: 130px;
+	width: 100px;
+	background: url('camera.png');
+}
+
+	.trees {
+		position: absolute;
+		bottom: 0;
+		width: 160px;
+		height: 160px;
+		background: url('baringtonia01L.png');
+		background-size: 100%;
+		}
+
+			.bigtree {
+				height: 250px;
+				width: 250px;
+			}
+
+			.smalltree {
+			}
+
+			.appletree {
+				height: 250px;
+				width: 300px;
+				background: url('tree2.png');
+			}
+
+				#tree1 {
+				left: 90%;
+				}
+
+				#tree2 {
+				left: 65%;
+				}
+
+				#tree3 {
+				left: 17%;
+				}
+
+				#tree4 {
+				left: 35%;
+				}
+
+				#tree5 {
+				left: 54%;
+				}
+
+				#tree6 {
+				left: 99%;
+				}
+
+				#tree7 {
+				left: 33% ;
+				}
+
+				#tree8 {
+				left: 66% ;
+				}
+
+	.cloud {
+		position: absolute;
+		bottom: 200px;
+		width: 300px;
+		height: 200px;
+		background: url('cloud1.png');
+		background-size: 100%;
+	}
+
+		#cloud1 {
+		left: 50%;
+		}
+		
+		#cloud2 {
+		left: 100%;
+		bottom: 175px;
+		}
+
+
+#track {
+	border-top: solid black 4px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 300px;
+	background: #CA5108;
+	border-bottom: solid black 4px;
+	z-index: 100;
+}
+
+
+
+
+#lanes {
+	color: white;
+	font-family: 'Arial';
+	font-size: 24px;
+	border-left: solid white 4px;
+	position: absolute;
+	padding-left: 8px;
+	line-height: 60px;
+	bottom: 0px;
+	height: 300px;
+}
+
+	.lanesep {
+		position: absolute;
+		left: 0;
+		right: 0;
+		border-bottom: solid white 2px;
+	}
+
+	#lane1 {
+		bottom: 240px;
+	}
+
+	#lane2 {
+		bottom: 180px;
+	}
+
+	#lane3 {
+		bottom: 120px;
+	}
+
+	#lane4 {
+		bottom: 60px;
+	}
+
+	.runner{
+		position: absolute;
+		width: 78px;
+		height: 160px;
+		background-repeat: no-repeat;
+		background-position: -18px 50%;
+		/* outline: solid yellow 1px; */
+	}
+
+.runner.lane1 {
+	bottom: 260px;
+	z-index: 10;
+}
+
+.runner.lane2 {
+	bottom: 200px;
+	z-index: 20;
+}
+
+.runner.lane3 {
+	bottom: 140px;
+	z-index: 30;
+}
+
+.runner.lane4 {
+	bottom: 80px;
+	z-index: 40;
+}
+
+.runner.lane5 {
+	bottom: 20px;
+	z-index: 50;
+}
+
+.runner.good {
+	background-image: url('good-athlete.png');
+}
+
+.runner.bad { 
+	background-image: url('bad-athlete.png');
+}
+
+.runner.you {
+	background-image: url('you-athlete.png');
+}
+
+.runner.activeZone {
+	background-image: url('you-athlete-hands-in-air.png');
+}
+
+.runner.dangerZone {
+	background-position: -22px -20px;
+	background-image: url('you-athlete-noseupwards.png');
+	width: 140px;
+	height: 80px;
+}
+
+#game {
+	color: red;
+	font-family: 'Arial';
+	font-size: 60px;
+	position: absolute;
+	bottom: 10%;
+	height: 300px;
+	left: 23%;		
+}
+
+#exit {
+	color: red;
+	font-family: 'Arial';
+	font-size: 60px;
+	position: absolute;
+	bottom: 10%;
+	height: 300px;
+	left: 66%;
+	width: 300px;	
+}
+
+#heading {
+	position: absolute;
+	left: 40%;
+	color: red;
+	font-family: 'arial';
+	font-size: 60px;
+}
+
+#game-over {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: black;
+	z-index: 300;
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	font-family: 'arial';
+}
+
+#statsdisplay {
+	position: absolute;
+	top: 8px;
+	left: 40%;
+	right: 40%;
+	height: 250px;
+	background: black;
+	border-radius: 8px;
+	padding: 8px;
+	font-size: 11px;
+	color: yellow;
+	z-index: 100;
+	font-family: 'Consolas', 'Courier New';
+}

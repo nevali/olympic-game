@@ -1,0 +1,21 @@
+name	gold	siver 	bronze	personal best	olympic events	2012 time	drug bans	cheats	gender	dob	height	weight	nation
+Beleynesh Oljira				30:26.7	"10000, 5000, 10km road"	30:45.6			female	1990-12-12			Ethiopia
+Hitomi Niiya				30:59.2	"10000, 5000, 3000"	30:59.2			female	1988-02-26			japan
+Joanne Pavey				30:53.2	"10000, 5000, 1500"	30:53.2			female	1973-09-20	162	49	Great Britain
+Julia Bleasdale				30:55.6	"10000, 5000"	30:55.6			female	1981-09-09	167	46	Great Britain
+Kayoko Fukushi				30:51.8	"10000, 5000, 3000"	31:10.3			female	1982-03-25			japan
+Sally Jepkosgei Kipyego		2012		30:26.4	"10000, 5000"	30:26.4			female	1985-12-19			Kenya
+Shitaye Eshete				31:21.6	"10000, 5000, 3000"	30:47.3			female	1990-05-21			bahrain
+Tirunesh Dibaba	"2012, 2008"			29:54.7	"10000, 5000"	30:20.8			female	1985-06-01			Ethiopia
+Vivian Jepkemoi Cheruiyot			2012	30:30.4	"10000, 5000"	30:30.4			female	1983-11-09			Kenya
+Werknesh Kidane				30:07.2	"10000, 5000"	30:39.4			female	1981-11-21	160	41	Ethiopia
+Bedan Muchiri				27:05.50	"5000, 10000"	27:32.94			male	1990-08-21	167	65	Kenya
+Galen Rupp		2012		26:48.00	"5000, 10000"	27:30.90			male	1986-05-08	180	63	USA
+Gebregziabher Gebremariam				26:52.33	"3000, 5000, 10000"	27:36.34			male	1984-09-10	178	56	Ethiopia
+Kenenisa Bekele	"2008, 2004"			26:17.53	"5000, 10000"	27:32.44			male	1982-06-13			Ethiopia
+mohamed farah	2012			26:46.27	"1500, 3000 5000 10000"	27:30.42			male	1993-03-23	175	56	Great Britain
+Moses Ndiema Kipsiro					"5000, 10000"	27:39.22			male	1986-09-02			Uganda
+Polat Kemboi Arikan					"3000, 5000, 10000"	27:38.81			male	1990-12-12	170	6o	Turkey
+Tariku Bekele			2012	27:31.43	"3000, 5000"	27:31.43			male	1987-02-28			Ethiopia
+Teklemariam Medhin				27:37.21	"5000, 10000"	27:34.76			male	1989-06-24	184	61	Eritria
+Zersenay Tadese			2004	26:37.25	10000	34:51.0			male	1982-02-08	160	54	Eritria
