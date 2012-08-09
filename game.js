@@ -113,7 +113,7 @@ $(function() {
 
 	function gameOver()
 	{
-		$('body').append('<div id="game-over"><p>Game Over</p><p>Your score is ' + player[0].scoreData.confirmedScore + '</p></div>');
+		$('body').append('<div id="game-over"><p>Game Over</p><p>Your score is ' + player[0].scoreData.confirmedScore + '</p><p><a href="">Do you want to play again?</a></div>');
 	}
 
 	function startAthlete(el)
